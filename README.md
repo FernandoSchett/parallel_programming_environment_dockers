@@ -2,36 +2,24 @@
 
 ## Description
 
-This project provides a series of DockerFiles built specifically for performing Hands On practices with openMP, openMPI. All practice itineraries are available by clicking [here](https://github.com/muriloboratto/hands-on-supercomputing-with-parallel-computing). 
+This project provides a series of DockerFiles built specifically for performing Hands On practices with openMP and openMPI. All practice itineraries are available by clicking [here](https://github.com/muriloboratto/hands-on-supercomputing-with-parallel-computing). 
 
-## Softwares
-
-- Ubuntu 18.04
-- g++ 
-- gcc 
-- gnuplot
-- libblas-dev 
-- liblapack-dev 
-- libopenmpi-dev 
-- libomp-dev 
-- openmpi-bin 
-- python3-dev 
-- python3-pip 
-- vim 
-- sudo
-- jupyter
-- jupyterlab
-- jupyternotebook
-- numpy 1.18.5
-- matplotlib 3.0.3
-- scipy 1.4.1
 
 ## How to use Docker Container from Dockerfile, to reproduce an Hands On experimentation:
 
 1. Inside the Dockerfile file directory, build the Docker image with:
 
-```docker build -t hands-on-number-distro:latest .```
+```docker build -t hands-on-<number>-<distro>:latest .```
 
-2. Inside the Dockerfile file directory, build the Docker image with:
+2. Now, run the following commands to run Dockerfile:
 
-```docker run -it hpc-environment-docker bash```
+```sudo docker create -t -i --name <name> -p 4000:4000 hands-on-<number>-<distro> ```
+```sudo docker start <name>```
+```sudo docker exec -it <name> bash```
+
+3. Inside Docker Container, start jupyternotebook with:
+
+```jupyter notebook --ip 0.0.0.0 --port 4000 --allow-root```
+
+After that, open the created link in the browser, then just follow the instructions written in .ipynb file!
+
