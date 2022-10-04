@@ -14,7 +14,9 @@ This project provides a series of DockerFiles built specifically for performing 
 2. Now, run the following commands to run Dockerfile:
 
 ```sudo docker create -t -i --name <name> -p 4000:4000 hands-on-<number>-<distro> ```
+
 ```sudo docker start <name>```
+
 ```sudo docker exec -it <name> bash```
 
 3. Inside Docker Container, start jupyternotebook with:
