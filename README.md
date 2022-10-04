@@ -11,7 +11,7 @@ This project provides a series of DockerFiles built specifically for performing 
 
 ```docker build -t hands-on-<number>-<distro>:latest .```
 
-2. Now, run the following commands to run Dockerfile:
+2. Now, run the following commands to run Dockerfile image:
 
 ```sudo docker create -t -i --name <name> -p 4000:4000 hands-on-<number>-<distro> ```
 
