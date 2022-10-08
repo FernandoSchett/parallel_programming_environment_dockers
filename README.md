@@ -38,6 +38,7 @@ Here is an example of a possible command, as i try to run ubuntu hands-on-1 imag
 ```jupyter notebook --ip 0.0.0.0 --port 4000 --allow-root <ipynb_namefile>```
 
 Here is an example of a possible command, as i try to run hands-on-1 .ipynb file:
+
 ```jupyter notebook --ip 0.0.0.0 --port 4000 --allow-root Relatorio-Pratica-HandsOn-1.ipynb```
 
 After that, open the created link in the browser, then just follow the instructions written in .ipynb file!
