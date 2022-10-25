@@ -25,7 +25,9 @@ RUN apt-get --yes -qq update \
 
 COPY requirements.txt /requirements.txt 
 RUN pip3 install --upgrade pip 
-RUN pip3 install -r requirements.txt  
+RUN pip3 install numpy
+RUN pip3 install matplotlib
+RUN pip3 install scipy
 RUN pip3 install jupyter && pip3 install jupyterlab && pip3 install notebook 
 RUN apt-get --yes -qq clean && rm -rf /var/lib/apt/lists/
 
