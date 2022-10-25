@@ -33,5 +33,5 @@ COPY samples/ /home/admin/hands-on-1/
 
 WORKDIR /home/admin/hands-on-1
 
-CMD [ "/bin/bash" ]
+CMD [ "jupyter", "lab", "--ip", "0.0.0.0", "--port", "4000", "--allow-root", "Relatório_Prática_Hands_On_1_Fernando_Gabriel_Jadson.ipynb"]
 
