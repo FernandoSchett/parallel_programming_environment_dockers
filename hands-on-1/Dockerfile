@@ -23,7 +23,6 @@ RUN apt-get --yes -qq update \
                       vim   \
                       sudo
 
-COPY requirements.txt /requirements.txt 
 RUN pip3 install --upgrade pip 
 RUN pip3 install numpy
 RUN pip3 install matplotlib
@@ -37,3 +36,4 @@ WORKDIR /home/admin/hands-on-1
 
 CMD [ "jupyter", "lab", "--ip", "0.0.0.0", "--port", "4000", "--allow-root", "Relatório_Prática_Hands_On_1_Fernando_Gabriel_Jadson.ipynb"]
 
+RUN echo huhu
