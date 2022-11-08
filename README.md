@@ -9,19 +9,11 @@ This project provides a series of DockerFiles built specifically for performing 
 
 1. Inside the Dockerfile file directory, build the Docker image with:
 
-```docker build -t hands-on-<number>-<distro>:latest .```
+```docker build -t hands-on-1-ubuntu:latest .```
 
 2. Now, run the following commands to run Dockerfile image:
 
-```sudo docker create -t -i --name <name> -p 4000:4000 hands-on-<number>-<distro> ```
+```docker run -p 4000:4000 -it hands-on-1-ubuntu```
 
-```sudo docker start <name>```
-
-```sudo docker exec -it <name> bash```
-
-3. Inside Docker Container, start jupyternotebook with:
-
-```jupyter notebook --ip 0.0.0.0 --port 4000 --allow-root```
-
-After that, open the created link in the browser, then just follow the instructions written in .ipynb file!
+3. After that, open the created link in the browser, then just follow the instructions written in .ipynb file!
 
