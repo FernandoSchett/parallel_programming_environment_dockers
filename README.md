@@ -36,8 +36,8 @@ If you new at [Docker](https://www.docker.com/), check it out this [repository](
 
 The project dependencies are described in a dependencies file within the repository. In summary, heres what you're gonna need in order to run the project:
 
-- 
-- 
+- jupyter, 6.5.2.
+- docker, 4.20.1.
 
 For installing dependencies more quickly, you can run the following command at terminal, inside the clonned repository:
 
@@ -66,7 +66,7 @@ Here it is an example of a [Docker](https://www.docker.com/) virtual ambient, wh
 	<img height = "250em" src = "" />
     </a>
 </div>
-<h4 align="center">Figure 1 - Screens from Docker built Virtual Ambient.</h4>
+<h4 align="center">Figure 1 - Screens from a running docker virtual ambient.</h4>
 
 ## Development Process ⚙️:
 
