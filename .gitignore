@@ -1,0 +1,24 @@
+# Ignore Docker image files
+*.tar
+*.gz
+*.tgz
+
+# Ignore compiled C programs
+*.o
+*.out
+
+# Ignore build artifacts and executables
+build/
+bin/
+
+# Ignore system-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore editor-specific files
+.vscode/
+.idea/
+
+# Ignore temporary files and directories
+temp/
+tmp/
