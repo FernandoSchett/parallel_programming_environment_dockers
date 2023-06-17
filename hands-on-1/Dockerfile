@@ -3,8 +3,6 @@ FROM ubuntu:18.04
 ENV LANG C.UTF-8
 ENV LC_ALL C.UTF-8
 
-MAINTAINER @fernandoSchett
-
 USER root
 
 RUN apt-get --yes -qq update \
