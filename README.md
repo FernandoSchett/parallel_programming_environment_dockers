@@ -2,7 +2,7 @@
 
 <div align="center">
 	<a href="link_for_webite">
-	<img height = "250em" src = "https://github.com/FernandoSchett/parallel_programming_environment_[Docker](https://www.docker.com/)s/assets/80331486/b1d1cff1-a310-423b-b24c-705e1b8a94b7" />
+	<img height = "250em" src = "https://github.com/FernandoSchett/parallel_programming_environment_dockers/assets/80331486/b1d1cff1-a310-423b-b24c-705e1b8a94b7" />
     </a>
 </div>
 
@@ -75,7 +75,7 @@ I met with my internship advisor once a week to showcase progress and receive gu
 ### Tools Used 🛠️: 
 
 - [Jupyter Notebook](https://jupyter.org/). 
-- [[Docker](https://www.docker.com/)](https://www.docker.com/).
+- [Docker](https://www.docker.com/).
 - [VScode](https://code.visualstudio.com/).
 
 ## How to contribute 🫂:
