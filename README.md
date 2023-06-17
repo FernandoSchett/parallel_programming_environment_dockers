@@ -1,9 +1,3 @@
-
-
-## Description
-
-This project provides a series of DockerFiles built specifically for performing Hands On practices with openMP and openMPI. All practice itineraries are available by clicking [here](https://github.com/muriloboratto/hands-on-supercomputing-with-parallel-computing). 
-
 <h1 align="center">🐋 Using Docker in High Performance Computing Applications 🐋</h1>
 
 <div align="center">
@@ -20,10 +14,23 @@ This project provides a series of DockerFiles built specifically for performing 
 
 ## About 🤔:
 
-## Resourses 🧑‍🔬:
+This project provides a series of Dockerfiles specifically designed for parallel dev, hands-on practices with openMP, openMPI, CUDA, NCCL and libraries. It aims to offer an easy-to-use environment for students who are new to parallel computing. The practice itineraries can be found [here](https://github.com/muriloboratto/hands-on-supercomputing-with-parallel-computing).
 
-- 
-- 
+By utilizing Docker, this project enables the effortless reproduction of experiments conducted in another repository. With this approach, it becomes simple and convenient to replicate those experiments, fostering an accessible learning experience.
+
+If you're interested in exploring parallel computing and want to dive into hands-on exercises, this repository serves as an excellent starting point. It provides a collection of Dockerfiles that facilitate the setup of experimentation environments parallel code frameworks.
+
+If you new at docker, check it out this [repository](https://github.com/orlandomotapires/docker_kick_start). Let's embark on an exciting journey into the world of parallel computing!
+
+## Resourses 🧑‍🔬:    
+
+- Dockerfiles: A series of Dockerfile configurations tailored to create reproducible environments for the hands-on exercises. These Dockerfiles ensure an easy and practical setup process for executing the practices.
+
+- Code samples: A variety of code examples written in languages such as C, C++, or other relevant languages for parallel computing. These samples serve as references and starting points for understanding and implementing parallel algorithms and techniques.
+
+- Supporting materials: Supplementary files, documents, or resources that complement the practice itineraries and provide additional insights into parallel computing concepts, best practices, or related topics.
+
+- Easy usability, Accessibility and Practicality: The project focuses on providing a user-friendly experience, particularly for students who are new to parallel computing. The Docker-based approach simplifies the reproduction of experiments conducted in another repository, ensuring a straightforward and convenient replication process.
 
 ## Dependencies 🚚:
 
@@ -52,19 +59,18 @@ Make sure you have all Dependencies before running the project.
 
 ## Screens 🎬:
 
-<app_name> screens were developed to turn out like [figma](link_for_figma) screens:
+Here it is an example of a  docker virtual ambient, when executed:
 
 <div align="center">
 	<a href="">
 	<img height = "250em" src = "" />
     </a>
 </div>
-<h4 align="center">Figure 1 - Screens from <app_name> </h4>
-
+<h4 align="center">Figure 1 - Screens from Docker built Virtual Ambient.</h4>
 
 ## Development Process ⚙️:
 
-Developers used [Trello]() to get things organized, each one using their own branch to code, using names to identify the commit type then merginng the features into develop branch. After testing, the group update the main branch. This application was developed in xx/xx/20xx until xx/xx/20xx.
+I met with my internship advisor once a week to showcase progress and receive guidance. I researched and selected Docker for reproducibility. I designed practice itineraries with theoretical concepts and practical exercises. Dockerfiles were created to streamline environment setup. Regular meetings with my advisor ensured project quality and improved my understanding of parallel computing. The project represents a collaborative effort resulting in an accessible learning resource.
 
 ### Tools Used 🛠️: 
 
@@ -78,11 +84,5 @@ Feel free to create a new branch, fork the project, create a new Issue or make a
 
 ## Licence 📜:
 
-[Apache V2](https://choosealicense.com/licenses/apache-2.0/)
-
-## References 📙:
-	
-[1] <last_author_name>, <first_author_name>. <work_title>. XX/XX/XX.
-	
-[2] <work_title>, <author_name>. Avaliable in: <https://www.link.com>. Access in em XX/XX/XX.
+[Apache V2](https://choosealicense.com/licenses/apache-2.0/).
 
