@@ -7,7 +7,7 @@
 </div>
 
 ## Developed by 💻:
-- [Fernando Schettin](https://github.com/FernandoSchett).
+- [Fernando Schettini](https://github.com/FernandoSchett).
 
 ## Special thanks to 🥰:
 - [Murilo Boratto](https://github.com/muriloboratto), your experience and knowledge have been invaluable to our progress.
@@ -49,11 +49,11 @@ Make sure you have all Dependencies before running the project.
 
 1. First, clone this repository. After that, inside the [Docker](https://www.docker.com/)file file directory, build the [Docker](https://www.docker.com/) image with:
 
-        docker build -t hands-on-1-ubuntu:latest .
+        sudo docker build -t hands-on-1-ubuntu:latest .
 
 2. Now, run the following commands to run Dockerfile image:
 
-        docker run -p 4000:4000 -it hands-on-1-ubuntu
+        sudo docker run -p 4000:4000 -it hands-on-1-ubuntu
 
 3. After that, open the created link in the browser, then just follow the instructions written in .ipynb file!
 
@@ -63,10 +63,17 @@ Here it is an example of a [Docker](https://www.docker.com/) virtual ambient, wh
 
 <div align="center">
 	<a href="">
-	<img height = "250em" src = "" />
+	<img height = "200em" src = "https://github.com/FernandoSchett/parallel_programming_environment_dockers/assets/80331486/43dec4a0-bd88-4b10-bf5a-386c08de1d28" />
     </a>
 </div>
-<h4 align="center">Figure 1 - Screens from a running docker virtual ambient.</h4>
+<h4 align="center">Figure 1 - Example screens from a running docker virtual ambient.</h4>
+
+<div align="center">
+	<a href="">
+	<img height = "250em" src = "https://github.com/FernandoSchett/parallel_programming_environment_dockers/assets/80331486/210eb6e6-5de5-4d09-a6d4-4c4a2cf3abad" />
+    </a>
+</div>
+<h4 align="center">Figure 2 - Example screens from jupyeter lab, when executed.</h4>
 
 ## Development Process ⚙️:
 
