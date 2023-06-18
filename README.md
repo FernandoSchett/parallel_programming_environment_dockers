@@ -36,8 +36,8 @@ If you new at [Docker](https://www.docker.com/), check it out this [repository](
 
 The project dependencies are described in a dependencies file within the repository. In summary, heres what you're gonna need in order to run the project:
 
-- ```jupyter```, 6.5.2.
-- ```docker```, 4.20.1.
+- ```jupyter 6.5.2```.
+- ```docker 4.20.1```.
 
 For installing dependencies more quickly, you can run the following command at terminal, inside the clonned repository:
 
