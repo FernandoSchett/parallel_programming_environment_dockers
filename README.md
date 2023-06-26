@@ -73,7 +73,7 @@ Here it is an example of a [Docker](https://www.docker.com/) virtual ambient, wh
 	<img height = "250em" src = "https://github.com/FernandoSchett/parallel_programming_environment_dockers/assets/80331486/210eb6e6-5de5-4d09-a6d4-4c4a2cf3abad" />
     </a>
 </div>
-<h4 align="center">Figure 2 - Example screens from jupyeter lab, when executed.</h4>
+<h4 align="center">Figure 2 - Example screens from jupyter lab, when executed.</h4>
 
 ## Development Process ⚙️:
 
@@ -82,7 +82,7 @@ I met with my internship advisor once a week to showcase progress and receive gu
 For installing some tools more quickly, you can run the following command at terminal, inside the clonned repository:
 
     sh ./dependencies/install_tools.sh
-    
+
 ### Tools Used 🛠️: 
 
 - [Jupyter Notebook](https://jupyter.org/). 
