@@ -79,6 +79,10 @@ Here it is an example of a [Docker](https://www.docker.com/) virtual ambient, wh
 
 I met with my internship advisor once a week to showcase progress and receive guidance. I researched and selected [Docker](https://www.docker.com/) for reproducibility. I designed practice itineraries with theoretical concepts and practical exercises. Dockerfiles were created to streamline environment setup. Regular meetings with my advisor ensured project quality and improved my understanding of parallel computing. The project represents a collaborative effort resulting in an accessible learning resource.
 
+For installing some tools more quickly, you can run the following command at terminal, inside the clonned repository:
+
+    sh ./dependencies/install_tools.sh
+    
 ### Tools Used 🛠️: 
 
 - [Jupyter Notebook](https://jupyter.org/). 
